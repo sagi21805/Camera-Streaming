@@ -1,0 +1,9 @@
+[package]
+name = "tcp-server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+tokio = { version = "1", features = ["full"] }
+opencv = "0.92.1"
+bytes = "1.7.1"
